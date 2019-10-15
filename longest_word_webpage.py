@@ -41,6 +41,15 @@ all_words.sort()
 print("all the words are", all_words)
 print("distinct words", len(all_words))
 
+count = 0
+words_list = []
+for word in all_words:
+    if word in words_list:
+        count = count + 1
+    else:
+        words_list.append(word)
+print(count)
+
 # write a program that counts all the distinct words that appear at least twice in the file
 
 

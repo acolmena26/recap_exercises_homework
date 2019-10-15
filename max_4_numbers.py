@@ -1,9 +1,13 @@
 num_read = 0
-print("This program reads 4 numbers and will print the biggest one")
+print("This program reads any numbers you input and will print the biggest one")
 request = "Give me a number that you want to compare"
 error = "That was not a valid number"
+
+read = input("please give me a number to put as max nums to compare")
+max_number = float(read)
+
 max = 0
-while num_read < 4
+while num_read < max_number:
     try:
         read_line = input(request)
         num = float(read_line)

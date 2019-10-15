@@ -90,3 +90,5 @@ print("Sorted list:", a)
 
 # Which sort is the best? Which is the worst?
 # Which of the algorithms are recursive?
+
+#The Best sort is the quick sort. The worst sort is the bubble sort. The merge sort is recursive
